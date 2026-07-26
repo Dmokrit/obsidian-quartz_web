@@ -61,6 +61,7 @@ plugins:
   - source: "@quartz-community/obsidian-flavored-markdown"
     enabled: true
     options:
+<<<<<<< HEAD
       comments: true
       highlight: true
       wikilinks: true
@@ -72,6 +73,9 @@ plugins:
       enableInHtmlEmbed: false
       enableYouTubeEmbed: true
       enableVideoEmbed: true
+=======
+      enableInHtmlEmbed: false
+>>>>>>> f34818697a86aeddea0fdd48d76a4f513683863d
       enableCheckbox: true
     order: 30
   - source: "@quartz-community/github-flavored-markdown"
@@ -100,7 +104,11 @@ plugins:
     enabled: false
     order: 85
   - source: "@quartz-community/hard-line-breaks"
+<<<<<<< HEAD
     enabled: true
+=======
+    enabled: false
+>>>>>>> f34818697a86aeddea0fdd48d76a4f513683863d
     order: 90
   - source: "@quartz-community/ox-hugo"
     enabled: false
@@ -111,9 +119,15 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
+<<<<<<< HEAD
     enabled: true
     options:
       theme: default
+=======
+    enabled: false
+    options:
+      theme: tokyo-night
+>>>>>>> f34818697a86aeddea0fdd48d76a4f513683863d
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -263,6 +277,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+<<<<<<< HEAD
   - source: "@quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:
@@ -270,6 +285,8 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+=======
+>>>>>>> f34818697a86aeddea0fdd48d76a4f513683863d
 layout:
   groups:
     toolbar:
